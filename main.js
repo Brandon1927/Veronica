@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function(){
   var c = document.getElementById('c'), ctx = c.getContext('2d');
   var W, H, dpr, cx, cy, tx, ty;

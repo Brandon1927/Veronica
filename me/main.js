@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function(){
   var c = document.getElementById('sky'), x = c.getContext('2d');
   var W, H, stars = [], shoots = [], mx = 0, my = 0, next = 0;

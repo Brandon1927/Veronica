@@ -1,3 +1,4 @@
+
 :root{--black:#000;--white:#fff;--purple:#8b3dff;--lilac:#c9a8ff;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box}
 html{background:var(--black);scroll-behavior:smooth}
@@ -52,4 +53,3 @@ input,textarea{font:inherit;color:var(--white);background:rgba(10,0,25,.8);borde
 textarea{min-height:140px;resize:vertical}
 form .btn{justify-self:start}
 
-@media (max-width:760px){.hero{grid-template-columns:1fr;min-height:0}.foto{order:-1;max-width:360px}}
