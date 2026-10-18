@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veronica Duque | Contacto</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="../VDP.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;600&display=swap">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<nav>
+  <a class="brand" href="index.html">Veronica Duque</a>
+  <ul>
+    <li><a href="../me/index.html">Inicio</a></li>
+    <li><a href="../sobre_mi/sobre-mi.html">Sobre mí</a></li>
+    <li><a href="../history/history.html">Historia</a></li>
+    <li><a href="../contact/contacto.html" aria-current="page">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <h1 style="margin-bottom:40px">Contacto</h1>
+
+  <section>
+    <h2>Escríbeme</h2>
+    <!-- Cambia TU_ID por el de tu formulario en formspree.io, o pon tu propio backend -->
+    <form action="https://formspree.io/f/TU_ID" method="POST">
+      <label>Nombre <input type="text" name="nombre" required></label>
+      <label>Correo <input type="email" name="correo" required></label>
+      <label>Mensaje <textarea name="mensaje" required></textarea></label>
+      <button class="btn" type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Otras formas de encontrarme</h2>
+    <ul class="lista">
+      <li>Correo: <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener">linkedin.com/in/tu-usuario</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/tu_usuario" target="_blank" rel="noopener">@tu_usuario</a></li>
+      <li>X: <a href="https://x.com/tu_usuario" target="_blank" rel="noopener">@tu_usuario</a></li>
+      <li>Ubicación: Cali, Colombia</li>
+    </ul>
+  </section>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
